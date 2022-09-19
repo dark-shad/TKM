@@ -11316,6 +11316,14 @@ p {
   margin-bottom: 4rem;
 }
 
+.page-section h4.section-subheading, .page-section .section-subheading.h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
