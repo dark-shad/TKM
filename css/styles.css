@@ -11427,12 +11427,14 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: 85% 100%;
+  background-size: 130% 100%;
+  
 }
 header.masthead .masthead-subheading {
+  padding-top: 40vh;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
