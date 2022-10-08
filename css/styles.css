@@ -11358,7 +11358,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #000000;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11797,6 +11797,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.crowd{
+  background: rgba(57, 255, 20, 0.5); 
+  color: #ffffff; 
+  width: 100%; 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+
+.right{
+  text-align: right;
+}
+
 .next{
   display: none;
 }
@@ -11807,6 +11819,30 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 @media only screen and (max-width: 768px){
+
+.crowd{
+    background: rgba(57, 255, 20, 0.5); 
+    color: #ffffff; 
+    width: 40%; 
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 1%;
+  }
+
+  /* change background */
+/* header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: 130% 100%;
+} */
+
+
 /* Slideshow container */
 .slideshow-container {
   /* max-width: 1000px; */
