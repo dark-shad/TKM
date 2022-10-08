@@ -11822,13 +11822,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
   /* change background */
-/* .change-phone{
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: 130% 100%;
-} */
+
 
 header.masthead {
   padding-top: 10.5rem;
@@ -11840,10 +11834,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: 130% 100%;
+}
 
-/* .masthead.container{
-  display: none;
-} */
 
 /* Slideshow container */
 .slideshow-container {
