@@ -11805,9 +11805,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: none;
 }
 
-.alignment{
-  justify-content: space-around;
-}
 
 @media only screen and (max-width: 768px){
 /* Slideshow container */
@@ -11815,7 +11812,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   /* max-width: 1000px; */
   position: relative;
   margin: auto;
-  justify-content: space-around;
 }
 
 /* Hide the images by default */
