@@ -11794,13 +11794,25 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-
+.footerDiv div{
+  width: 50%;
+}
+.linkSocial{
+  display: flex;
+  justify-content: flex-end;
+  padding: .2rem;
+}
 .footer {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  background-color:black;
+  color: white;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+.py-4{
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important;
+}
 .crowd{
   background: rgba(57, 255, 20, 0.5); 
   color: #ffffff; 
