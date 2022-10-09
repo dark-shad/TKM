@@ -7940,9 +7940,13 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 50% ;
 }
-
+@media only screen and (max-width: 600px) {
+  .rounded-circle{
+      border-radius: 0%;
+  }
+}
 .rounded-pill {
   border-radius: 50rem !important;
 }
