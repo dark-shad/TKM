@@ -11739,7 +11739,7 @@ header.masthead .masthead-heading {
 }
 
 .img-brand {
-  height: 4rem;
+  height: 16rem;
 }
 
 section#contact {
@@ -11873,6 +11873,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+
 
 @media only screen and (max-width: 600px){
 
