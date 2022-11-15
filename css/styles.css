@@ -6524,7 +6524,7 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -11410,7 +11410,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    /* background-color: #212529; */
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11743,13 +11743,13 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  /* background-color: #212529;
+  background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  /* color: #fff; */
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
