@@ -11886,12 +11886,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 .team-text{
+  
   position: relative;
   color: #fff;
   padding-top: 20%;
   padding-left: 5%;
 }
 
+.team-text a{
+  text-decoration: none;
+  color: #fff;
+
+}
 
 @media only screen and (max-width: 600px){
 
