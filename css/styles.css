@@ -11941,7 +11941,7 @@ iframe{
 }
 
 .department-borders{
-  border-style:solid;
+  border-style:double;
 }
 
 .department-borders h4{
@@ -11951,11 +11951,30 @@ iframe{
   font-size: 2rem;
   font-style: italic;
   position: relative;
-  top: -0.5em;
+  top: -0.7em;
   display: inline;
-  background-color: white;
+  background-color: #F8F9FA;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.department-borders-new{
+  border-style:double;
+  
+}
+
+.department-borders-new h4{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  position: relative;
+  top: -0.7em;
+  display: inline;
+  background-color: #F8F9FA;
+  padding-left: 10%;
+  padding-right: 10%;
+  
 }
 
 .department-bg{
