@@ -11956,7 +11956,7 @@ iframe{
 }
 
 .department-bg{
-  background-image: url("../assets/img/dept-bg.png");
+  background-image: url("../assets/img/department/dept-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -12037,4 +12037,32 @@ iframe{
   width: 22rem;
   height: 12rem;
 }
+
+.department-bg{
+  background-image: url("../assets/img/department/dept-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+
+.department-bg h2{
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 }
