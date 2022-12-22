@@ -11942,9 +11942,53 @@ iframe{
 
 .department-borders{
   border-style:solid;
-  /* border-top: none; */
-  border-top-width: 20%;
 }
+
+.department-borders h4{
+  /* color: white; */
+  text-align: center;
+  position: relative;
+  top: -0.5em;
+  display: inline;
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.department-bg{
+  background-image: url("../assets/img/dept-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+
+.department-bg h2{
+  padding-right: 3%;
+  text-align: right;
+  font-size: 8rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* .department-color{
+  background-color: #000;
+  color: white;
+
+} */
 
 @media only screen and (max-width: 600px){
 
