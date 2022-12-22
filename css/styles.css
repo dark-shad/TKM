@@ -11947,6 +11947,9 @@ iframe{
 .department-borders h4{
   /* color: white; */
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-style: italic;
   position: relative;
   top: -0.5em;
   display: inline;
