@@ -11881,7 +11881,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 30% ;
+  padding-top: 10% ;
   padding-bottom: 40%;
 }
 
@@ -11890,15 +11890,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   
   position: relative;
   color: #fff;
-  padding-top: 20%;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5%;
   padding-left: 5%;
 }
 
 .team-text a{
   text-decoration: none;
   color: #fff;
-
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  /* color: #000000; */
 }
+
+/* .team-text a:before{
+  color: #000000;
+  content: "Blitz";
+} */
 
 .contact-bg{
   background-image: url("../assets/img/contact-bg.png");
@@ -11916,6 +11925,25 @@ section#contact form#contactForm :-ms-input-placeholder {
 iframe{
   width: 30rem;
   height: 25rem;
+}
+
+.team-title h1{
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.team-borders{
+  border-style:solid;
+  border-top: none;
+}
+
+.department-borders{
+  border-style:solid;
+  /* border-top: none; */
+  border-top-width: 20%;
 }
 
 @media only screen and (max-width: 600px){
