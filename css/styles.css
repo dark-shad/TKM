@@ -11942,10 +11942,12 @@ iframe{
 
 .department-borders{
   border-style:double;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .department-borders h4{
-  /* color: white; */
+  color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
@@ -11953,17 +11955,21 @@ iframe{
   position: relative;
   top: -0.7em;
   display: inline;
-  background-color: #F8F9FA;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* background-color: #F8F9FA; */
+  background-color: #000000;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .department-borders-new{
   border-style:double;
+  border-color: #ffffff;
+  color: #ffffff;
   
 }
 
 .department-borders-new h4{
+  color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
@@ -11971,9 +11977,10 @@ iframe{
   position: relative;
   top: -0.7em;
   display: inline;
-  background-color: #F8F9FA;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* background-color: #F8F9FA; */
+  background-color: #000000;
+  padding-left: 5%;
+  padding-right: 5%;
   
 }
 
@@ -12011,6 +12018,29 @@ iframe{
   color: white;
 
 } */
+
+.stldiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+.stlcol{
+  width: 24%;
+  height: auto;
+  margin: 0.25%;
+}
+
+.dept-text{
+  position: relative;
+  color: #fff;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 1.4rem;
+}
 
 @media only screen and (max-width: 600px){
 
@@ -12084,6 +12114,19 @@ iframe{
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.stldiv{
+  /* display: inline-flex; */
+  /* justify-content: space-around;
+  flex-wrap: wrap; */
+  background-color: #000000;
+}
+
+.stlcol{
+  width: 90%;
+  height: auto;
+  margin: 0.25%;
 }
 
 

@@ -16,6 +16,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/zoomEffect.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/model-slide.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -161,35 +164,104 @@
 
 
         <!-- Department-->
-        <section class="page-section bg-light" id="team">
+        <section class="page-section " style="background-color: black;" id="team">
             <div class="department-bg"> 
                 <br><br><br><br><br><br><br><br><br><br><br>
                 <div class="text-center">
                     <h2>Departments</h2>
                 </div>
-                <br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br>
             </div>
-            <!-- <div class="row">
-                <div class="col-lg-3">
-                    <iframe
-                    src="assets\img\department\CVT.00.00.STL">
+            <div class="container" style="background-color: black;">
+                <div class="stldiv">
+                    <div class="stlcol">
+                        <div id="stl_cont"></div>
+    
+                        <script src="stl_viewer.min.js"></script>        
+                        <script>
+                            var stl_viewer=new StlViewer
+                            (
+                                document.getElementById("stl_cont"),
+                                {                    
+                                    auto_rotate:true,
+                                    bg_color:"#000000",
+                                    allow_drag_and_drop:true,
+                                    models:
+                                    [
+                                        {filename:"rollcage.stl"}
+                                    ]
+                                }
+                            );
+                        </script>
+                    </div>
+    
+                    <div class="stlcol">
+                        <div id="stl_cont1"></div>
+    
+                        <script src="stl_viewer.min.js"></script>        
+                        <script>
+                            var stl_viewer=new StlViewer
+                            (
+                                document.getElementById("stl_cont1"),
+                                {                    
+                                    auto_rotate:true,
+                                    auto_zoom:false,
+                                    bg_color:"#000000",
+                                    allow_drag_and_drop:true,
+                                    models:
+                                    [
+                                        {filename:"CVT.stl"}
+                                    ]
+                                }
+                            );
+                        </script>
+                    </div>
+    
+                    <div class="stlcol">
+                        <div id="stl_cont2"></div>
+    
+                        <script src="stl_viewer.min.js"></script>        
+                        <script>
+                            var stl_viewer=new StlViewer
+                            (
+                                document.getElementById("stl_cont2"),
+                                {                    
+                                    auto_rotate:true,
+                                    bg_color:"#000000",
+                                    allow_drag_and_drop:true,
+                                    models:
+                                    [
+                                        {filename:"Vehicle-dynamics.stl"}
+                                    ]
+                                }
+                            );
+                        </script>
+                    </div>
+    
+                    <div class="stlcol">
+                        <div id="stl_cont3" ></div>
+    
+                        <script src="stl_viewer.min.js"></script>        
+                        <script>
+                            var stl_viewer=new StlViewer
+                            (
+                                document.getElementById("stl_cont3"),
+                                {                    
+                                    auto_rotate:true,
+                                    bg_color:"#000000",
+                                    allow_drag_and_drop:true,
+                                    models:
+                                    [
+                                        {filename:"brake.stl"}
+                                    ]
+                                }
+                            );
+                        </script>
+                    </div>
                 </div>
+            </div>
 
-                <div class="col-lg-3">
-                    <iframe
-                    src="assets\img\department\CVT.00.00.STL">
-                </div>
 
-                <div class="col-lg-3">
-                    <iframe
-                    src="assets\img\department\CVT.00.00.STL">
-                </div>
-
-                <div class="col-lg-3">
-                    <iframe
-                    src="assets\img\department\CVT.00.00.STL">
-                </div>
-            </div> -->
             <div class="container">
                 <div class="text-center department-color">
                    <!-- <h2 class="section-heading text-uppercase">Department</h2> -->
@@ -204,23 +276,23 @@
                         <div class="team-member department-borders">
                             <h4>Rollcage</h4>
                             <br>
-                            <p class="">Siddharth Kannadkar</p>
-                            <p class="">Mark Divekar</p>
-                            <p class="">Siddhant Kadam</p>
-                            <p class="">Siddhesh Teli</p>
-                            <p class="">Sahil Jadhav</p>
+                            <p class="dept-text">Siddharth Kannadkar</p>
+                            <p class="dept-text">Mark Divekar</p>
+                            <p class="dept-text">Siddhant Kadam</p>
+                            <p class="dept-text">Siddhesh Teli</p>
+                            <p class="dept-text">Sahil Jadhav</p>
                             </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="team-member department-borders">
                             <h4>Powertrain</h4>
                                 <br>
-                            <p class="">Harsh Chaudhary</p>
-                            <p class="">Ritka Sonkusare</p>
-                            <p class="">Aniruddha Habade</p>
-                            <p class="">Jayesh Kapadni                        
-                            <p class="">Mayuresh Shinde</p>
-                            <p class="">Vinit Mhatre</p>
+                            <p class="dept-text">Harsh Chaudhary</p>
+                            <p class="dept-text">Ritka Sonkusare</p>
+                            <p class="dept-text">Aniruddha Habade</p>
+                            <p class="dept-text">Jayesh Kapadni                        
+                            <p class="dept-text">Mayuresh Shinde</p>
+                            <p class="dept-text">Vinit Mhatre</p>
 
                             </div>
                     </div>
@@ -228,20 +300,20 @@
                         <div class="team-member department-borders">
                             <h4>Vehicle Dynamics</h4>
                             <br>
-                            <p class="">Yash Vaidya</p>
-                            <p class="">Preksha Dongre</p>
-                            <p class="">Atharva Naik</p>
-                            <p class="">Mohit Lele</p>
+                            <p class="dept-text">Yash Vaidya</p>
+                            <p class="dept-text">Preksha Dongre</p>
+                            <p class="dept-text">Atharva Naik</p>
+                            <p class="dept-text">Mohit Lele</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="team-member department-borders">
                             <h4>Brakes</h4>
                             <br>
-                            <p class="">Noel Varghese</p>
-                            <p class="">Pratamesh Mane</p>
-                            <p class="">Yash Salodkar</p>
-                            <p class="">Karuna Pagare</p>
+                            <p class="dept-text">Noel Varghese</p>
+                            <p class="dept-text">Pratamesh Mane</p>
+                            <p class="dept-text">Yash Salodkar</p>
+                            <p class="dept-text">Karuna Pagare</p>
                             </div>
                     </div>
                 </div>
@@ -251,9 +323,9 @@
                         <div class="team-member department-borders-new">
                             <h4>CAE</h4>
                             <br>
-                            <p class="">Prathamesh Vaity </p>
-                            <p class="">Siddhesh Padate</p>
-                            <p class="">Shreyash Parab</p>
+                            <p class="dept-text">Prathamesh Vaity </p>
+                            <p class="dept-text">Siddhesh Padate</p>
+                            <p class="dept-text">Shreyash Parab</p>
                             </div>
                     </div>
 
@@ -261,9 +333,9 @@
                         <div class="team-member department-borders-new">
                             <h4>Manufacturing</h4>
                             <br>
-                            <p class="">Christo Sibi </p>
-                            <p class="">Hardik Thasale</p>
-                            <p class="">Suyash Bare</p>
+                            <p class="dept-text">Christo Sibi </p>
+                            <p class="dept-text">Hardik Thasale</p>
+                            <p class="dept-text">Suyash Bare</p>
                             </div>
                     </div>
 
@@ -271,11 +343,11 @@
                         <div class="team-member department-borders-new">
                             <h4>Social</h4>
                             <br>
-                            <p class="">Rutwik Saste</p>
-                            <p class="">Ritu Khimasiya</p>
-                            <p class="">Shruti Shinde</p>
-                            <p class="">Atharva Dake</p>
-                            <p class="">Pratik Shrivastav</p>
+                            <p class="dept-text">Rutwik Saste</p>
+                            <p class="dept-text">Ritu Khimasiya</p>
+                            <p class="dept-text">Shruti Shinde</p>
+                            <p class="dept-text">Atharva Dake</p>
+                            <p class="dept-text">Pratik Shrivastav</p>
                             </div>
                     </div>
                  
@@ -311,11 +383,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
     </body>
 </html>
  
